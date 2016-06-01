@@ -3,7 +3,7 @@ How-detect-robots-and-spiders-with-PHP
 
 Here is the simple function for detecting spiders and robots. It will return true or false.
 
-
+<pre>
 function is_bot(){
     $bots = array(
         'Googlebot',
@@ -28,6 +28,7 @@ function is_bot(){
    }
    return false;
 }
+<pre>
 
 
 
