@@ -22,7 +22,6 @@ function is_bot(){
         'urlresolver',
         'Butterfly',
         'TweetmemeBot');
- 
    foreach($bots as $b){
       if( stripos( $_SERVER['HTTP_USER_AGENT'], $b ) !== false ) return true;
    }
